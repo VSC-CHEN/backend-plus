@@ -1,0 +1,30 @@
+[common]
+origin = "http://127.0.0.1" # host # 域名
+port = 8000 # 端口
+
+[mysql]
+config = "charset=utf8&parseTime=true"
+database = "check_out"
+host = "127.0.0.1"
+password = "123456"
+port = 3306
+username = "root"
+
+[redis]
+addr = "127.0.0.1:7000"
+password = ""
+db = ""
+method ="tcp"
+
+[email]
+name = "wdnmdchen"
+host = "smtp.qq.com"
+smtp = "smtp.qq.com:25"
+addr = "wdnmdchen@qq.com"
+password = "mwqpiwwkkjjabfcc"
+expires = 60 # 验证码过期时间 (15 s)
+
+[jwt]
+expires = 604800 # token过期时间 (1 min)
+issuer = "JOJO" # 发行人
+key = "JOJOsaigao" # 签名密钥
